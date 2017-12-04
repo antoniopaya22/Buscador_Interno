@@ -1,0 +1,75 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="author" content="Antonio Payá González"/>
+    <meta name="description" content="Página web personal de Antonio Payá"/>
+    <meta name="keywords" content="Antonio,Payá,González,UO251065" />
+
+    <title>Antonio Payá González</title>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+  	<script src="js/load.js"></script>
+  	<script src="js/jquery.dataTables.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <header>
+        <h1>¡Bienvenidos a mi web!</h1>
+    </header>
+    <!-- Menu -->
+    <nav>
+        <ol>
+            <li><a class="seleccionado" href="index.html" title="Pagina Principal">Inicio</a></li>
+            <li><a href="sew.html" title="Prácticas de SEW">Prácticas SEW</a></li>
+            <li><a href="multimedia.html" title="Multimedia">Multimedia</a></li>
+            <li><a href="aficiones.html" title="Aficiones">Aficiones</a></li>
+            <li><a href="github.html" title="GitHub Personal">Github</a></li>
+            <li><input type="search" placeholder="Buscar . . ." id="inputBusqueda"/></li>
+        </ol>
+    </nav>
+    <main>
+        <!-- Busqueda -->
+        <div class="search" id="search">
+          <table class="search-tabla" id="searchTabla">
+            <thead><tr><td></td></tr></thead>
+            <tbody id="tabla"></tbody>
+          </table>
+        </div>
+        <div class="resultados"></div>
+        <!-- Contenido -->
+        <header>
+            <video controls="controls" autoplay="autoplay" loop="loop">
+                <source src="https://unioviedo-my.sharepoint.com/personal/uo251065_uniovi_es/_layouts/15/guestaccess.aspx?docid=0c860eac3e21c41b4b35f8ff2f941feac&authkey=AQVvkk4j14Exhbc3qjChzB8&e=e6a01a85019948a5bb55981d1d6863c2" type="video/mp4">
+            </video>
+        </header>
+        <section>
+            <h2>Perfil: </h2>
+            <img src="https://unioviedo-my.sharepoint.com/personal/uo251065_uniovi_es/_layouts/15/guestaccess.aspx?docid=036631f7bc74449bc93a33ed671dc95f1&authkey=AddbgbdkkbUwKoSt9rDHS8o&e=cca8188f30a845198f3ea530729c7a6f" alt="Foto de perfil de Antonio Payá" width="300" height="300"/>
+            <ul>
+                <li><p>Nombre: Antonio Payá González</p></li>
+                <li><p>E-mail: uo25065@uniovi.es</p></li>
+                <li><p>Edad: 20</p></li>
+            </ul>
+        </section>
+    </main>
+<footer>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer ">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="CSS Válido!" title="CSS Válido" height="31" width="88" /></a>
+    <a href="https://validator.w3.org/check?uri=referer">
+        <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64"
+         alt="HTML5 Válido" title="HTML5 Válido" /></a>
+    <p><strong>© Copyright Antonio Payá 2017.</strong></p>
+</footer>
+<script src="js/buscador.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="author" content="Antonio Payá González"/>
+    <meta name="description" content="Aficiones de Antonio Payá González"/>
+    <meta name="keywords" content="Antonio,Payá,González,UO251065" />
+    <title>Aficiones-Antonio Payá González</title>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+  	<script src="js/load.js"></script>
+  	<script src="js/jquery.dataTables.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Aficiones</h1>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="index.html" title="Pagina Principal">Inicio</a></li>
+            <li><a href="sew.html" title="Prácticas de SEW">Prácticas SEW</a></li>
+            <li><a href="multimedia.html" title="Multimedia">Multimedia</a></li>
+            <li><a class="seleccionado" href="aficiones.html" title="Aficiones">Aficiones</a></li>
+            <li><a href="github.html" title="GitHub Personal">Github</a></li>
+            <li><input type="search" placeholder="Buscar . . ." id="inputBusqueda"/></li>
+        </ol>
+    </nav>
+    <main>
+        <!-- Busqueda -->
+        <div class="search" id="search">
+          <table class="search-tabla" id="searchTabla">
+            <thead><tr><td></td></tr></thead>
+            <tbody id="tabla"></tbody>
+          </table>
+        </div>
+        <div class="resultados"></div>
+        <!-- Contenido -->
+        <section>
+            <h2>Aficiones:</h2>
+            <p>Cuando tengo tiempo libre <i>(rara vez si estoy en periodo lectivo)</i> me gusta pasar el tiempo viendo series en casa, tapado con mi mantita
+            para estar mas calentito, tomando una o dos cervezas con mis amigos <i>(o más)</i>, jugando al fútbol y/o al baloncesto y de vez en cuando programando un poco.
+            </p>
+            <p>La lista de series que estoy viendo actualmente <i>(con su correspondiente enlace a Playmax para poder verla) es:</i></p>
+            <ul>
+                <li><a href="https://playmax.mx/juego-de-tronos-f184">Juego de tronos</a></li>
+                <li><a href="https://playmax.mx/rick-y-morty-f1331">Rick y Morty</a></li>
+                <li><a href="https://playmax.mx/mr-robot-f36152">Mr Robot</a></li>
+                <li><a href="https://playmax.mx/arrow-f137">Arrow</a></li>
+                <li><a href="https://playmax.mx/one-piece-f270">One Piece</a></li>
+                <li><a href="https://playmax.mx/teen-wolf-f17393">Teen Wolf</a></li>
+                <li><a href="https://playmax.mx/the-defenders-f38168">The Defenders</a></li>
+                <li><a href="https://playmax.mx/dragon-ball-super-f36061">Dragon Ball Super</a></li>
+            </ul>
+        </section>
+    </main>
+
+<footer>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer ">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="CSS Válido!" title="CSS Válido" height="31" width="88" /></a>
+    <a href="https://validator.w3.org/check?uri=referer">
+        <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64"
+         alt="HTML5 Válido" title="HTML5 Válido" /></a>
+</footer>
+<script src="js/buscador.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="author" content="Antonio Payá González"/>
+    <meta name="description" content="Página con enlaces a GitHub y otras páginas de código"/>
+    <meta name="keywords" content="Antonio,Payá,González,UO251065" />
+    <title>GitHub-Antonio Payá González</title>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+  	<script src="js/load.js"></script>
+  	<script src="js/jquery.dataTables.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <header>
+        <h1>GitHub</h1>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="index.html" title="Pagina Principal">Inicio</a></li>
+            <li><a href="sew.html" title="Prácticas de SEW">Prácticas SEW</a></li>
+            <li><a href="multimedia.html" title="Multimedia">Multimedia</a></li>
+            <li><a href="aficiones.html" title="Aficiones">Aficiones</a></li>
+            <li><a class="seleccionado" href="github.html" title="GitHub Personal">Github</a></li>
+            <li><input type="search" placeholder="Buscar . . ." id="inputBusqueda"/></li>
+        </ol>
+    </nav>
+    <main>
+        <!-- Busqueda -->
+        <div class="search" id="search">
+          <table class="search-tabla" id="searchTabla">
+            <thead><tr><td></td></tr></thead>
+            <tbody id="tabla"></tbody>
+          </table>
+        </div>
+        <div class="resultados"></div>
+        <!-- Contenido -->
+        <section>
+            <h2>Proyectos personales</h2>
+            <p>Los proyectos personales que voy creando a lo largo del tiempo, los suelo ir subiendo a mi perfil de GitHub.</p>
+            <p><a href="https://es.wikipedia.org/wiki/GitHub">GitHub</a> es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones
+            <a href="https://es.wikipedia.org/wiki/Git">Git</a></p>
+            <h3>Perfil de GitHub:</h3>
+            <a class="github-perfil" href="https://github.com/antonioalfa22">Antonio Payá González - GitHub Perfil</a>
+        </section>
+    </main>
+
+<footer>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer ">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="CSS Válido!" title="CSS Válido" height="31" width="88" /></a>
+    <a href="https://validator.w3.org/check?uri=referer">
+        <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64"
+         alt="HTML5 Válido" title="HTML5 Válido" /></a>
+</footer>
+<script src="js/buscador.js"></script>
+</body>
+
+</html>

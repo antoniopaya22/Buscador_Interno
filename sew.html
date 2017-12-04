@@ -1,0 +1,207 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="author" content="Antonio Payá González"/>
+    <meta name="description" content="Página que enlaza a las prácticas de SEW"/>
+    <meta name="keywords" content="Antonio,Payá,González,UO251065,SEW,Prácticas" />
+    <title>SEW-Antonio Payá González</title>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+  	<script src="js/load.js"></script>
+  	<script src="js/jquery.dataTables.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <header>
+        <h1>PRÁCTICAS DE SEW</h1>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="index.html" title="Pagina Principal">Inicio</a></li>
+            <li><a class="seleccionado" href="sew.html" title="Prácticas de SEW">Prácticas SEW</a></li>
+            <li><a href="multimedia.html" title="Multimedia">Multimedia</a></li>
+            <li><a href="aficiones.html" title="Aficiones">Aficiones</a></li>
+            <li><a href="github.html" title="GitHub Personal">Github</a></li>
+            <li><input type="search" placeholder="Buscar . . ." id="inputBusqueda"/></li>
+        </ol>
+    </nav>
+    <main>
+        <!-- Busqueda -->
+        <div class="search" id="search">
+          <table class="search-tabla" id="searchTabla">
+            <thead><tr><td></td></tr></thead>
+            <tbody id="tabla"></tbody>
+          </table>
+        </div>
+        <div class="resultados"></div>
+        <!-- Contenido -->
+        <section>
+            <h2>UO251065 Laboratorio 7</h2>
+            <h3>Prácticas: </h3>
+            <ul>
+                <li><a href="SEW/p0/index.html" title="Práctica 0 de SEW">Práctica 0</a></li>
+                <li><a href="SEW/p1/index.html" title="Práctica 1 de SEW">Práctica 1</a></li>
+                <li>
+                    <p>Práctica 2</p>
+                    <ol>
+                        <li><p>Ejercicio 1:</p>
+                            <ol>
+                                <li><p>
+                                        Tarea 1:
+                                        <a href="SEW/p2/Ejercicio1/Tarea1/articulos.xml" title="Práctica 2 Tarea 1 de SEW">xml</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 2:
+                                        <a href="SEW/p2/Ejercicio1/Tarea2/articulos.xml" title="Práctica 2 Tarea 2 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea2/articulos.svg" title="Práctica 2 Tarea 2 de SEW">svg</a>
+                                    </p>
+                                </li>
+                                <li><p>
+                                        Tarea 3:
+                                        <a href="SEW/p2/Ejercicio1/Tarea3/articulos.xml" title="Práctica 2 Tarea 3 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea3/articulos.svg" title="Práctica 2 Tarea 3 de SEW">svg</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea3/articulos.dtd" title="Práctica 2 Tarea 3 de SEW">dtd</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 4:
+                                        <a href="SEW/p2/Ejercicio1/Tarea4/articulos.xml" title="Práctica 2 Tarea 4 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea4/articulos.svg" title="Práctica 2 Tarea 4 de SEW">svg</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea4/articulos.dtd" title="Práctica 2 Tarea 4 de SEW">dtd</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea4/articulos.xsd" title="Práctica 2 Tarea 4 de SEW">xsd</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 5:
+                                        <a href="SEW/p2/Ejercicio1/Tarea5/articulos.xml" title="Práctica 2 Tarea 5 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea5/articulos.svg" title="Práctica 2 Tarea 5 de SEW">svg</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea5/articulos.dtd" title="Práctica 2 Tarea 5 de SEW">dtd</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea5/articulos.xsd" title="Práctica 2 Tarea 5 de SEW">xsd</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 6:
+                                        <a href="SEW/p2/Ejercicio1/Tarea6/articulos.xml" title="Práctica 2 Tarea 6 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea6/articulos.svg" title="Práctica 2 Tarea 6 de SEW">svg</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea6/articulos.dtd" title="Práctica 2 Tarea 6 de SEW">dtd</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea6/articulos.xsd" title="Práctica 2 Tarea 6 de SEW">xsd</a>
+                                        <a href="SEW/p2/Ejercicio1/Tarea6/articulos_vs_autogenerado.xsd" title="Práctica 2 Tarea 6 de SEW">xsd-VisualStudio</a>
+                                    </p>
+                                </li>
+                                <li><a href="SEW/p2/Ejercicio1/Tarea7/Diferencias_XML_autogenerado.pdf" title="Práctica 2 Tarea 7 de SEW">Tarea 7</a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <p>Ejercicio 2:</p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        Tarea 1:
+                                        <a href="SEW/p2/Ejercicio2/Tarea1/recetas.xml" title="Práctica 2 Tarea 1 de SEW">xml</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 2:
+                                        <a href="SEW/p2/Ejercicio2/Tarea2/recetas.xml" title="Práctica 2 Tarea 2 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea2/recetas.svg" title="Práctica 2 Tarea 2 de SEW">svg</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 3:
+                                        <a href="SEW/p2/Ejercicio2/Tarea3/recetas.xml" title="Práctica 2 Tarea 3 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea3/recetas.svg" title="Práctica 2 Tarea 3 de SEW">svg</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea3/recetas.dtd" title="Práctica 2 Tarea 3 de SEW">dtd</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 4:
+                                        <a href="SEW/p2/Ejercicio2/Tarea4/recetas.xml" title="Práctica 2 Tarea 4 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea4/recetas.svg" title="Práctica 2 Tarea 4 de SEW">svg</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea4/recetas.dtd" title="Práctica 2 Tarea 4 de SEW">dtd</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea4/recetas.xsd" title="Práctica 2 Tarea 4 de SEW">xsd</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 5:
+                                        <a href="SEW/p2/Ejercicio2/Tarea5/recetas.xml" title="Práctica 2 Tarea 5 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea5/recetas.svg" title="Práctica 2 Tarea 5 de SEW">svg</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea5/recetas.dtd" title="Práctica 2 Tarea 5 de SEW">dtd</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea5/recetas.xsd" title="Práctica 2 Tarea 5 de SEW">xsd</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tarea 6:
+                                        <a href="SEW/p2/Ejercicio2/Tarea6/recetas.xml" title="Práctica 2 Tarea 6 de SEW">xml</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea6/recetas.svg" title="Práctica 2 Tarea 6 de SEW">svg</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea6/recetas.dtd" title="Práctica 2 Tarea 6 de SEW">dtd</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea6/recetas.xsd" title="Práctica 2 Tarea 6 de SEW">xsd</a>
+                                        <a href="SEW/p2/Ejercicio2/Tarea6/recetas_autogenerado.xsd.xsd" title="Práctica 2 Tarea 6 de SEW">xsd-VisualStudio</a>
+                                    </p>
+                                </li>
+                                <li><a href="SEW/p2/Ejercicio1/Tarea7/Diferencias_XML_autogenerado.pdf" title="Práctica 2 Tarea 7 de SEW">Tarea 7</a></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+                <li><a href="SEW/p3/index.html" title="Práctica 0 de SEW">Práctica 3</a></li>
+                <li>
+                    <p>Práctica 4</p>
+                    <ol>
+                        <li>
+                            <p>Ejercicio 1:</p>
+                            <ol>
+                                <li><p>Tarea 1:<a href="SEW/p4/Ejercicio1/Tarea1/articulos.xml" title="Práctica 4 Tarea 1 de SEW">xml</a></p></li>
+                                <li><p>Tarea 2:<a href="SEW/p4/Ejercicio1/Tarea2/articulos.xml" title="Práctica 4 Tarea 2 de SEW">xml</a></p></li>
+                                <li><p>Tarea 3:<a href="SEW/p4/Ejercicio1/Tarea3/articulos.xml" title="Práctica 4 Tarea 3 de SEW">xml</a></p></li>
+                                <li><p>Tarea 4:<a href="SEW/p4/Ejercicio1/Tarea4/articulos.xml" title="Práctica 4 Tarea 4 de SEW">xml</a></p></li>
+                                <li><p>Tarea 5:<a href="SEW/p4/Ejercicio1/Tarea5/articulos.xml" title="Práctica 4 Tarea 5 de SEW">xml</a></p></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <p>Ejercicio 2:</p>
+                            <ol>
+                                <li><p>Tarea 1:<a href="SEW/p4/Ejercicio2/Tarea1/recetas.xml" title="Práctica 4 Tarea 1 de SEW">xml</a></p></li>
+                                <li><p>Tarea 2:<a href="SEW/p4/Ejercicio2/Tarea2/recetas.xml" title="Práctica 4 Tarea 2 de SEW">xml</a></p></li>
+                                <li><p>Tarea 3:<a href="SEW/p4/Ejercicio2/Tarea3/recetas.xml" title="Práctica 4 Tarea 3 de SEW">xml</a></p></li>
+                                <li><p>Tarea 4:<a href="SEW/p4/Ejercicio2/Tarea4/recetas.xml" title="Práctica 4 Tarea 4 de SEW">xml</a></p></li>
+                                <li><p>Tarea 5:<a href="SEW/p4/Ejercicio2/Tarea5/recetas.xml" title="Práctica 4 Tarea 5 de SEW">xml</a></p></li>
+                            </ol>
+                        </li>
+                        <li><a href="https://github.com/antonioalfa22/GraphQuery" title="Práctica 4 Ejercicio 3 y 4 de SEW">Ejercicios 3 y 4</a></li>
+                    </ol>
+                </li>
+                <li><a href="SEW/p5/index.html" title="Práctica 5 de SEW">Práctica 5</a></li>
+            </ul>
+        </section>
+     </main>
+
+<footer>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer ">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="CSS Válido!" title="CSS Válido" height="31" width="88" /></a>
+    <a href="https://validator.w3.org/check?uri=referer">
+        <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64"
+         alt="HTML5 Válido" title="HTML5 Válido" /></a>
+</footer>
+<script src="js/buscador.js"></script>
+</body>
+
+</html>

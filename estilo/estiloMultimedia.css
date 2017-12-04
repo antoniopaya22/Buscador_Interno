@@ -1,0 +1,231 @@
+/*001*/
+body {
+      font: 400 15px Tahoma, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+      background-color: #303030;
+  }
+/*001*/
+h1 {
+    font: 900 50px Impact,fantasy;
+    background-image: url(https://unioviedo-my.sharepoint.com/personal/uo251065_uniovi_es/_layouts/15/guestaccess.aspx?docid=0bb3008d465cc49d6a5ed82b8c7a149dc&authkey=Ab0KZRCS2hp6yLh09nyGmzU&e=265f6bee146f4d7a86a084f4e98c861a);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 200px 25px;
+    text-align: center;
+    margin: -2% -0.5% 0% -0.5%;
+}
+/*002*/
+nav ol {
+    list-style-type: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+/*003*/
+nav ol li {
+    display: inline-block;
+    float: left;
+}
+/*004*/
+nav ol li a {
+    display: block;
+    color: #4CAF50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*014*/
+nav ol li a:hover {
+    background-color: #111;
+}
+/*014*/
+nav ol li a.seleccionado {
+    background-color: #4CAF50;
+    color:white;
+}
+
+/*001*/
+footer {
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    margin: 0% -0.5% -2% -0.5%;
+}
+/*002*/
+footer h2 {
+    font: 600 20px "Times New Roman", Georgia, Serif;
+    color: #4CAF50;
+    text-transform: uppercase;
+    border-bottom: inset;
+}
+
+/*002*/
+footer a {
+    color: #111;
+}
+/*012*/
+footer a:visited {
+    color: #4CAF50;
+}
+/*012*/
+footer a:hover {
+    color: red;
+}
+/*001*/
+main{
+    background-color:white;
+    margin: 0% 2% 0% 2%;
+}
+
+/*002*/
+main header {
+    background-color: #303030;
+}
+
+/*003*/
+main header video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/*002*/
+main section{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+/*003*/
+main section h2 {
+    font: 600 30px Tahoma, sans-serif;
+    color: #4CAF50;
+    text-transform: uppercase;
+    border-bottom: inset;
+    padding-top:4%;
+}
+
+/*004*/
+main section h2 + img{
+    border-radius:50%;
+}
+
+/*003*/
+main section ul {
+    font-style: italic;
+    font-family: Tahoma, sans-serif;
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+/*005*/
+main section ul li p, main section ul li a {
+    padding: 8px;
+    font-style: normal;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    color: #000;
+    border-left: 1px solid #4CAF50;
+}
+
+
+/*015*/
+main section a:hover{
+    color: red;
+}
+@import "estilo.css";
+
+/*002*/
+section ul {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*003*/
+section ul li {
+    list-style-type: none;
+    float: left;
+    width: 50%;
+}
+
+section ul li img{
+    border-radius:50%;
+    margin:auto;
+    display:block;
+}
+
+.search{
+	width: 60%;
+	max-width: 100%;
+	margin: auto;
+	background: #fff;
+	padding:0 10px;
+	padding-bottom: 5px;
+	max-height: 85%;
+	overflow-x: hidden;
+	display: none;
+}
+
+.search-tabla{
+	width: 50%;
+}
+
+tbody tr td{
+	width: 100%;
+}
+
+tbody tr td a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #737373;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	padding-left: 20px;
+	border: 2px solid #fff;
+}
+
+tbody tr td a:hover{
+	border: 2px solid #378FD9;
+}
+
+.search::-webkit-scrollbar{
+	background:rgba(0,0,0,0);
+}
+
+.search::-webkit-scrollbar-button{
+ 	background:#C1C1C1;
+}
+
+.search::-webkit-scrollbar-thumb{
+	background:#C1C1C1;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+	display: none;
+}
+input[type="search"] {
+  display: inline-block;
+  box-sizing: content-box;
+  margin-top: 3%;
+  margin-left: 5%;
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: white;
+  text-overflow: clip;
+  background: #4CAF50;
+
+}
