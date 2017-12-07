@@ -1,12 +1,6 @@
-var consulta = $("#searchTabla").DataTable();
-
-$("#inputBusqueda").keyup(function(){
+$("#inputBusqueda").keyup(function () {
+    var consulta = $("#searchTabla").DataTable();
 	consulta.search($(this).val()).draw();
-
-	$(".resultados").css({
-		"height": "100vh",
-		"background": "rgba(0,0,0,0.5)"
-	});
 
 	if ($("#inputBusqueda").val() == ""){
 		$(".resultados").css({
