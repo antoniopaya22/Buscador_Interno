@@ -8,9 +8,9 @@ en listas, párrafos o cualquier elemento html que se le añada.
 
 Funciona de forma que redirige al usuario a el html donde se encuentre el elemento seleccionado.
 
-![Imágen de demostración 1](/assets/web1.png)
-![Imágen de demostración 2](/assets/web2.png)
-![Imágen de demostración 3](/assets/web3.png)
+![Imágen de demostración 1](/assets/web1.PNG)
+![Imágen de demostración 2](/assets/Web2.PNG)
+![Imágen de demostración 3](/assets/Web3.PNG)
 
 ## Funcionamiento
 
